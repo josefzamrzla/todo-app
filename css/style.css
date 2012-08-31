@@ -1,0 +1,19 @@
+h1 {
+    margin-bottom: 20px;
+}
+span.done-true {
+    text-decoration: line-through;
+    color:grey;
+}
+.tasks li {
+    list-style-type: none;
+    padding:10px 0;
+}
+.tasks li a {
+    margin-left:5px;
+    display:none;
+    font-weight:bold;
+}
+.tasks li:hover a {
+    display:inline;
+}
